@@ -1,0 +1,29 @@
+<h1>Q1. Find the missing number in the series:</h1>
+<span>2,3,10,15,26,35,50,63,?</span>
+
+<br>
+
+<span>
+  <p>Note : As given that i have to show <b>index & number</b> for example <b>index : 0 , Number : 2 && index : 1 , Number : 3</b></p>
+</span>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<input type="number" [(ngModel)]="numb" name="lname" placeholder="Enter a Number">
+<br>
+<br>
+<br>
+<input type="submit" value="Click" (click)="submit()">
+
+
+<br>
+<br>
+
+<div style="display: flex;justify-content: space-between;width:12%">
+<span><b>index:</b>{{numb}}</span>
+<span ><b>Number:</b> &nbsp;&nbsp;{{this.res}}</span>
+</div>
